@@ -1,0 +1,404 @@
+{
+  "provincias": [
+    {
+      "id": "san-jose",
+      "nombre": "San José",
+      "nombre_en": "San José",
+      "svgId": "CRSJ",
+      "descripcion": "El corazón cultural y político de Costa Rica. Una metrópolis vibrante rodeada de montañas, donde la historia colonial convive con el arte contemporáneo y la gastronomía de clase mundial.",
+      "descripcion_en": "The cultural and political heart of Costa Rica. A vibrant metropolis surrounded by mountains, where colonial history coexists with contemporary art and world-class gastronomy.",
+      "color": "#2D6A4F",
+      "destinos": [
+        {
+          "id": "sj-001",
+          "nombre": "Teatro Nacional de Costa Rica",
+          "nombre_en": "National Theater of Costa Rica",
+          "descripcion": "Joya arquitectónica del siglo XIX, considerado el edificio más importante de Costa Rica. Su interior decorado con pinturas europeas y mármol italiano lo hace único en Centroamérica.",
+          "descripcion_en": "19th-century architectural gem, considered the most important building in Costa Rica. Its interior decorated with European paintings and Italian marble makes it unique in Central America.",
+          "imagen_portada": "assets/img/San Jose/teatro-nacional/teatro-nacional-1.jpg",
+          "galeria": [
+            "assets/img/San Jose/teatro-nacional/teatro-nacional-1.jpg",
+            "assets/img/San Jose/teatro-nacional/teatro-nacional-2.jpg",
+            "assets/img/San Jose/teatro-nacional/teatro-nacional-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Tours guiados", "Conciertos", "Ópera", "Ballet", "Fotografía"],
+          "actividades_en": ["Guided tours", "Concerts", "Opera", "Ballet", "Photography"],
+          "lat": 9.9325, "lng": -84.0796
+        },
+        {
+          "id": "sj-002",
+          "nombre": "Mercado Central",
+          "nombre_en": "Central Market",
+          "descripcion": "El mercado más antiguo de San José, fundado en 1880. Un laberinto de sabores, aromas y colores donde los costarricenses compran frutas exóticas, mariscos frescos y artesanías tradicionales.",
+          "descripcion_en": "San José's oldest market, founded in 1880. A labyrinth of flavors, aromas and colors where Costa Ricans buy exotic fruits, fresh seafood and traditional crafts.",
+          "imagen_portada": "assets/img/San Jose/mercado-central/mercado-central-1.jpg",
+          "galeria": [
+            "assets/img/San Jose/mercado-central/mercado-central-1.jpg",
+            "assets/img/San Jose/mercado-central/mercado-central-2.jpg",
+            "assets/img/San Jose/mercado-central/mercado-central-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Gastronomía local", "Compras", "Fotografía", "Cultura popular"],
+          "actividades_en": ["Local gastronomy", "Shopping", "Photography", "Popular culture"],
+          "lat": 9.9319, "lng": -84.0839
+        },
+        {
+          "id": "sj-003",
+          "nombre": "Museo del Jade",
+          "nombre_en": "Jade Museum",
+          "descripcion": "Hogar de la colección de jade precolombino más grande del mundo. Más de 7,000 piezas arqueológicas que narran la historia de las civilizaciones indígenas de Costa Rica.",
+          "descripcion_en": "Home to the world's largest pre-Columbian jade collection. Over 7,000 archaeological pieces that tell the story of Costa Rica's indigenous civilizations.",
+          "imagen_portada": "assets/img/San Jose/museo-jade/museo-jade-1.jpg",
+          "galeria": [
+            "assets/img/San Jose/museo-jade/museo-jade-1.jpg",
+            "assets/img/San Jose/museo-jade/museo-jade-2.jpg",
+            "assets/img/San Jose/museo-jade/museo-jade-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Arqueología", "Historia", "Arte precolombino", "Educación cultural"],
+          "actividades_en": ["Archaeology", "History", "Pre-Columbian art", "Cultural education"],
+          "lat": 9.9360, "lng": -84.0779
+        }
+      ]
+    },
+    {
+      "id": "alajuela",
+      "nombre": "Alajuela",
+      "nombre_en": "Alajuela",
+      "svgId": "CRA",
+      "descripcion": "Tierra de flores y héroes, Alajuela combina el fervor patriótico con paisajes volcánicos espectaculares. Cuna de Juan Santamaría y hogar del imponente Volcán Poás.",
+      "descripcion_en": "Land of flowers and heroes, Alajuela combines patriotic fervor with spectacular volcanic landscapes. Birthplace of Juan Santamaría and home of the imposing Poás Volcano.",
+      "color": "#40916C",
+      "destinos": [
+        {
+          "id": "al-001",
+          "nombre": "Volcán Poás",
+          "nombre_en": "Poás Volcano",
+          "descripcion": "Uno de los volcanes más activos de Costa Rica. Su cráter principal contiene un lago de ácido sulfúrico de un kilómetro de diámetro, rodeado de un paisaje lunar de gran belleza.",
+          "descripcion_en": "One of Costa Rica's most active volcanoes. Its main crater contains a one-kilometer sulfuric acid lake, surrounded by a lunar landscape of great beauty.",
+          "imagen_portada": "assets/img/Alajuela/volcan-poas/volcan-poas-1.jpg",
+          "galeria": [
+            "assets/img/Alajuela/volcan-poas/volcan-poas-1.jpg",
+            "assets/img/Alajuela/volcan-poas/volcan-poas-2.jpg",
+            "assets/img/Alajuela/volcan-poas/volcan-poas-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Senderismo", "Observación volcánica", "Fotografía", "Avistamiento de aves"],
+          "actividades_en": ["Hiking", "Volcanic observation", "Photography", "Birdwatching"],
+          "lat": 10.1997, "lng": -84.2330
+        },
+        {
+          "id": "al-002",
+          "nombre": "La Fortuna & Volcán Arenal",
+          "nombre_en": "La Fortuna & Arenal Volcano",
+          "descripcion": "El Volcán Arenal dominó el horizonte con su cono perfecto durante siglos. Hoy La Fortuna ofrece aguas termales, canopy, rafting y el majestuoso lago Arenal como escenario.",
+          "descripcion_en": "Arenal Volcano dominated the horizon with its perfect cone for centuries. Today La Fortuna offers hot springs, canopy, rafting and the majestic Lake Arenal as a backdrop.",
+          "imagen_portada": "assets/img/Alajuela/volcan-arenal/volcan-arenal-1.jpg",
+          "galeria": [
+            "assets/img/Alajuela/volcan-arenal/volcan-arenal-1.jpg",
+            "assets/img/Alajuela/volcan-arenal/volcan-arenal-2.jpg",
+            "assets/img/Alajuela/volcan-arenal/volcan-arenal-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Aguas termales", "Canopy", "Rafting", "Senderismo", "Kayak"],
+          "actividades_en": ["Hot springs", "Canopy", "Rafting", "Hiking", "Kayaking"],
+          "lat": 10.4647, "lng": -84.6425
+        },
+        {
+          "id": "al-003",
+          "nombre": "Sarchi — Artesanías",
+          "nombre_en": "Sarchi — Crafts Village",
+          "descripcion": "Capital artesanal de Costa Rica, famosa por sus carretas de bueyes pintadas a mano con diseños geométricos multicolores. Declarada Patrimonio Cultural Inmaterial de la Humanidad.",
+          "descripcion_en": "Costa Rica's artisan capital, famous for its hand-painted ox carts with multicolored geometric designs. Declared Intangible Cultural Heritage of Humanity.",
+          "imagen_portada": "assets/img/Alajuela/sarchi/sarchi-1.jpg",
+          "galeria": [
+            "assets/img/Alajuela/sarchi/sarchi-1.jpg",
+            "assets/img/Alajuela/sarchi/sarchi-2.jpg",
+            "assets/img/Alajuela/sarchi/sarchi-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Artesanías", "Tallado de madera", "Compras", "Fotografía"],
+          "actividades_en": ["Crafts", "Wood carving", "Shopping", "Photography"],
+          "lat": 10.0941, "lng": -84.4155
+        }
+      ]
+    },
+    {
+      "id": "cartago",
+      "nombre": "Cartago",
+      "nombre_en": "Cartago",
+      "svgId": "CRC",
+      "descripcion": "Primera capital de Costa Rica y ciudad de profunda devoción religiosa. Custodio del Volcán Turrialba, el Valle de Orosi y la venerada Basílica de Nuestra Señora de los Ángeles.",
+      "descripcion_en": "Costa Rica's first capital and city of deep religious devotion. Guardian of Turrialba Volcano, the Orosi Valley and the revered Basilica of Our Lady of the Angels.",
+      "color": "#52B788",
+      "destinos": [
+        {
+          "id": "ca-001",
+          "nombre": "Basílica de los Ángeles",
+          "nombre_en": "Basilica of Our Lady of the Angels",
+          "descripcion": "El santuario más sagrado de Costa Rica, sede de La Negrita, patrona del país. Cada 2 de agosto miles de peregrinos llegan a pie desde todo el territorio nacional para honrarla.",
+          "descripcion_en": "Costa Rica's most sacred shrine, home of La Negrita, the country's patron saint. Every August 2nd, thousands of pilgrims walk from across the country to honor her.",
+          "imagen_portada": "assets/img/Cartago/basilica-angeles/basilica-angeles-1.jpg",
+          "galeria": [
+            "assets/img/Cartago/basilica-angeles/basilica-angeles-1.jpg",
+            "assets/img/Cartago/basilica-angeles/basilica-angeles-2.jpg",
+            "assets/img/Cartago/basilica-angeles/basilica-angeles-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Turismo religioso", "Arquitectura", "Peregrinación", "Fotografía"],
+          "actividades_en": ["Religious tourism", "Architecture", "Pilgrimage", "Photography"],
+          "lat": 9.8627, "lng": -83.9196
+        },
+        {
+          "id": "ca-002",
+          "nombre": "Valle de Orosi",
+          "nombre_en": "Orosi Valley",
+          "descripcion": "Uno de los valles más pintorescos de Costa Rica. Rodeado de montañas exuberantes, el río Reventazón serpentea entre plantaciones de café, aguas termales y ruinas coloniales.",
+          "descripcion_en": "One of Costa Rica's most picturesque valleys. Surrounded by lush mountains, the Reventazón River winds through coffee plantations, hot springs and colonial ruins.",
+          "imagen_portada": "assets/img/Cartago/valle-orosi/valle-orosi-1.jpg",
+          "galeria": [
+            "assets/img/Cartago/valle-orosi/valle-orosi-1.jpg",
+            "assets/img/Cartago/valle-orosi/valle-orosi-2.jpg",
+            "assets/img/Cartago/valle-orosi/valle-orosi-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Aguas termales", "Rafting", "Senderismo", "Café", "Ciclismo"],
+          "actividades_en": ["Hot springs", "Rafting", "Hiking", "Coffee tours", "Cycling"],
+          "lat": 9.7939, "lng": -83.8536
+        },
+        {
+          "id": "ca-003",
+          "nombre": "Volcán Turrialba",
+          "nombre_en": "Turrialba Volcano",
+          "descripcion": "Uno de los volcanes más activos de América Central. Sus recientes erupciones han cubierto de ceniza los alrededores, creando un paisaje dramático y de difícil acceso.",
+          "descripcion_en": "One of Central America's most active volcanoes. Its recent eruptions have covered the surroundings with ash, creating a dramatic and difficult-to-access landscape.",
+          "imagen_portada": "assets/img/Cartago/volcan-turrialba/volcan-turrialba-1.jpg",
+          "galeria": [
+            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-1.jpg",
+            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-2.jpg",
+            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Senderismo", "Fotografía", "Observación volcánica"],
+          "actividades_en": ["Hiking", "Photography", "Volcanic observation"],
+          "lat": 10.0250, "lng": -83.7670
+        }
+      ]
+    },
+    {
+      "id": "heredia",
+      "nombre": "Heredia",
+      "nombre_en": "Heredia",
+      "svgId": "CRH",
+      "descripcion": "La 'Ciudad de las Flores' es la cuna del café costarricense de exportación. Sus colinas fértiles albergan haciendas históricas, la vibrante cultura universitaria y el volcán Barva.",
+      "descripcion_en": "The 'City of Flowers' is the birthplace of Costa Rican export coffee. Its fertile hills harbor historic haciendas, vibrant university culture and Barva Volcano.",
+      "color": "#74C69D",
+      "destinos": [
+        {
+          "id": "he-001",
+          "nombre": "Volcán Barva",
+          "nombre_en": "Barva Volcano",
+          "descripcion": "Un coloso dormido dentro del Parque Nacional Braulio Carrillo. Sus lagunas cratéricas de aguas cristalinas y sus bosques nubosos son hogar del quetzal y el puma.",
+          "descripcion_en": "A sleeping giant within Braulio Carrillo National Park. Its crystal-clear crater lagoons and cloud forests are home to the quetzal and puma.",
+          "imagen_portada": "assets/img/Heredia/volcan-barva/volcan-barva-1.jpg",
+          "galeria": [
+            "assets/img/Heredia/volcan-barva/volcan-barva-1.jpg",
+            "assets/img/Heredia/volcan-barva/volcan-barva-2.jpg",
+            "assets/img/Heredia/volcan-barva/volcan-barva-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Senderismo", "Avistamiento de aves", "Quetzales", "Fotografía de naturaleza"],
+          "actividades_en": ["Hiking", "Birdwatching", "Quetzal spotting", "Nature photography"],
+          "lat": 10.1342, "lng": -84.1029
+        },
+        {
+          "id": "he-002",
+          "nombre": "Café Britt — Hacienda Cafetalera",
+          "nombre_en": "Café Britt — Coffee Estate",
+          "descripcion": "El tour de café más famoso de Costa Rica. Recorre las plantaciones, aprende el proceso de tostado y catación, y descubre por qué el café tico es considerado entre los mejores del mundo.",
+          "descripcion_en": "Costa Rica's most famous coffee tour. Walk through the plantations, learn the roasting and tasting process, and discover why Costa Rican coffee is considered among the world's best.",
+          "imagen_portada": "assets/img/Heredia/cafe-britt/cafe-britt-1.jpg",
+          "galeria": [
+            "assets/img/Heredia/cafe-britt/cafe-britt-1.jpg",
+            "assets/img/Heredia/cafe-britt/cafe-britt-2.jpg",
+            "assets/img/Heredia/cafe-britt/cafe-britt-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Tour de café", "Catación", "Compras", "Gastronomía"],
+          "actividades_en": ["Coffee tour", "Cupping", "Shopping", "Gastronomy"],
+          "lat": 10.0015, "lng": -84.1170
+        }
+      ]
+    },
+    {
+      "id": "guanacaste",
+      "nombre": "Guanacaste",
+      "nombre_en": "Guanacaste",
+      "svgId": "CRG",
+      "descripcion": "La provincia más soleada de Costa Rica, tierra de llanuras doradas, playas del Pacífico de aguas turquesa y una cultura sabanera profundamente arraigada.",
+      "descripcion_en": "Costa Rica's sunniest province, land of golden plains, turquoise Pacific beaches and a deeply rooted cowboy culture.",
+      "color": "#B7E4C7",
+      "destinos": [
+        {
+          "id": "gu-001",
+          "nombre": "Playa Tamarindo",
+          "nombre_en": "Tamarindo Beach",
+          "descripcion": "La meca del surf en Costa Rica. Tamarindo atrae surfistas de todo el mundo con sus olas perfectas, vida nocturna vibrante y atardeceres que pintan el cielo de naranja y rosa.",
+          "descripcion_en": "Costa Rica's surfing mecca. Tamarindo attracts surfers from around the world with its perfect waves, vibrant nightlife and sunsets that paint the sky orange and pink.",
+          "imagen_portada": "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-1.jpg",
+          "galeria": [
+            "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-1.jpg",
+            "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-2.jpg",
+            "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Surf", "Snorkel", "Buceo", "Kayak", "Tortugas marinas"],
+          "actividades_en": ["Surfing", "Snorkeling", "Scuba diving", "Kayaking", "Sea turtles"],
+          "lat": 10.2994, "lng": -85.8412
+        },
+        {
+          "id": "gu-002",
+          "nombre": "Parque Nacional Rincón de la Vieja",
+          "nombre_en": "Rincón de la Vieja National Park",
+          "descripcion": "Un parque volcánico que parece sacado de otro planeta: pozas de lodo hirviente, fumarolas, cataratas y bosque seco tropical conviven en un mismo territorio mágico.",
+          "descripcion_en": "A volcanic park that seems from another planet: boiling mud pots, fumaroles, waterfalls and tropical dry forest coexist in the same magical territory.",
+          "imagen_portada": "assets/img/Guanacaste/rincon-vieja/rincon-vieja-1.jpg",
+          "galeria": [
+            "assets/img/Guanacaste/rincon-vieja/rincon-vieja-1.jpg",
+            "assets/img/Guanacaste/rincon-vieja/rincon-vieja-2.jpg",
+            "assets/img/Guanacaste/rincon-vieja/rincon-vieja-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Senderismo", "Pozas termales", "Canopy", "Tubing", "Avistamiento de vida silvestre"],
+          "actividades_en": ["Hiking", "Thermal pools", "Canopy", "Tubing", "Wildlife watching"],
+          "lat": 10.7839, "lng": -85.3265
+        },
+        {
+          "id": "gu-003",
+          "nombre": "Playa Conchal",
+          "nombre_en": "Conchal Beach",
+          "descripcion": "Una playa única en el mundo formada enteramente por diminutas conchas trituradas por el mar. Sus aguas turquesa y calmas la convierten en el paraíso del snorkel.",
+          "descripcion_en": "A unique beach in the world formed entirely by tiny shells crushed by the sea. Its calm turquoise waters make it a snorkeling paradise.",
+          "imagen_portada": "assets/img/Guanacaste/playa-conchal/playa-conchal-1.jpg",
+          "galeria": [
+            "assets/img/Guanacaste/playa-conchal/playa-conchal-1.jpg",
+            "assets/img/Guanacaste/playa-conchal/playa-conchal-2.jpg",
+            "assets/img/Guanacaste/playa-conchal/playa-conchal-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Snorkel", "Natación", "Buceo", "Descanso", "Fotografía"],
+          "actividades_en": ["Snorkeling", "Swimming", "Scuba diving", "Relaxation", "Photography"],
+          "lat": 10.4661, "lng": -85.8283
+        }
+      ]
+    },
+    {
+      "id": "limon",
+      "nombre": "Limón",
+      "nombre_en": "Limón",
+      "svgId": "CRL",
+      "descripcion": "La provincia del Caribe costarricense, donde el ritmo del calypso llena el aire, la cocina afrocaribeña conquista el paladar y la naturaleza explota en colores tropicales.",
+      "descripcion_en": "Costa Rica's Caribbean province, where calypso rhythms fill the air, Afro-Caribbean cuisine conquers the palate and nature explodes in tropical colors.",
+      "color": "#1B4332",
+      "destinos": [
+        {
+          "id": "li-001",
+          "nombre": "Parque Nacional Cahuita",
+          "nombre_en": "Cahuita National Park",
+          "descripcion": "El arrecife de coral más grande de Costa Rica protege una biodiversidad marina asombrosa. En tierra, el bosque costero alberga monos cariblanca, perezosos y tortugas marinas.",
+          "descripcion_en": "Costa Rica's largest coral reef protects stunning marine biodiversity. On land, the coastal forest shelters white-faced monkeys, sloths and sea turtles.",
+          "imagen_portada": "assets/img/Limon/cahuita/cahuita-1.jpg",
+          "galeria": [
+            "assets/img/Limon/cahuita/cahuita-1.jpg",
+            "assets/img/Limon/cahuita/cahuita-2.jpg",
+            "assets/img/Limon/cahuita/cahuita-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Snorkel", "Senderismo", "Avistamiento de perezosos", "Natación", "Tortugas marinas"],
+          "actividades_en": ["Snorkeling", "Hiking", "Sloth watching", "Swimming", "Sea turtles"],
+          "lat": 9.7369, "lng": -82.8411
+        },
+        {
+          "id": "li-002",
+          "nombre": "Puerto Viejo de Talamanca",
+          "nombre_en": "Puerto Viejo de Talamanca",
+          "descripcion": "El epicentro del Caribe costarricense. Playas de ensueño como Playa Cocles y Punta Uva, la cultura bribri indígena y las legendarias olas de la Salsa Brava.",
+          "descripcion_en": "The epicenter of the Costa Rican Caribbean. Dream beaches like Playa Cocles and Punta Uva, Bribri indigenous culture and the legendary waves of Salsa Brava.",
+          "imagen_portada": "assets/img/Limon/puerto-viejo/puerto-viejo-1.jpg",
+          "galeria": [
+            "assets/img/Limon/puerto-viejo/puerto-viejo-1.jpg",
+            "assets/img/Limon/puerto-viejo/puerto-viejo-2.jpg",
+            "assets/img/Limon/puerto-viejo/puerto-viejo-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Surf", "Ciclismo", "Cultura indígena", "Gastronomía caribeña", "Buceo"],
+          "actividades_en": ["Surfing", "Cycling", "Indigenous culture", "Caribbean cuisine", "Scuba diving"],
+          "lat": 9.6558, "lng": -82.7536
+        }
+      ]
+    },
+    {
+      "id": "puntarenas",
+      "nombre": "Puntarenas",
+      "nombre_en": "Puntarenas",
+      "svgId": "CRP",
+      "descripcion": "La provincia más extensa de Costa Rica abarca desde el Pacífico Central hasta el Sur, guardando tesoros como Manuel Antonio, la Península de Osa y las ballenas jorobadas.",
+      "descripcion_en": "Costa Rica's largest province stretches from the Central to the Southern Pacific, guarding treasures like Manuel Antonio, the Osa Peninsula and humpback whales.",
+      "color": "#95D5B2",
+      "destinos": [
+        {
+          "id": "pu-001",
+          "nombre": "Parque Nacional Manuel Antonio",
+          "nombre_en": "Manuel Antonio National Park",
+          "descripcion": "El parque más visitado de Costa Rica une selva tropical y playas de arena blanca. Sus senderos revelan monos tití, iguanas y perezosos a pocos metros del mar Pacífico.",
+          "descripcion_en": "Costa Rica's most visited park unites tropical jungle and white sand beaches. Its trails reveal squirrel monkeys, iguanas and sloths just meters from the Pacific Ocean.",
+          "imagen_portada": "assets/img/Puntarenas/manuel-antonio/manuel-antonio-1.jpg",
+          "galeria": [
+            "assets/img/Puntarenas/manuel-antonio/manuel-antonio-1.jpg",
+            "assets/img/Puntarenas/manuel-antonio/manuel-antonio-2.jpg",
+            "assets/img/Puntarenas/manuel-antonio/manuel-antonio-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Senderismo", "Natación", "Snorkel", "Avistamiento de monos", "Kayak"],
+          "actividades_en": ["Hiking", "Swimming", "Snorkeling", "Monkey watching", "Kayaking"],
+          "lat": 9.3926, "lng": -84.1368
+        },
+        {
+          "id": "pu-002",
+          "nombre": "Bahía Drake & Corcovado",
+          "nombre_en": "Drake Bay & Corcovado",
+          "descripcion": "El Parque Nacional Corcovado, joya de la biodiversidad mundial. National Geographic lo consideró el lugar más biodiverso del planeta: jaguares, tapires y scarlet macaws en su máxima expresión.",
+          "descripcion_en": "Corcovado National Park, a jewel of world biodiversity. National Geographic considered it the most biodiverse place on the planet: jaguars, tapirs and scarlet macaws at their finest.",
+          "imagen_portada": "assets/img/Puntarenas/corcovado/corcovado-1.jpg",
+          "galeria": [
+            "assets/img/Puntarenas/corcovado/corcovado-1.jpg",
+            "assets/img/Puntarenas/corcovado/corcovado-2.jpg",
+            "assets/img/Puntarenas/corcovado/corcovado-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Ecoturismo", "Senderismo avanzado", "Observación de jaguares", "Buceo", "Pesca deportiva"],
+          "actividades_en": ["Ecotourism", "Advanced hiking", "Jaguar watching", "Scuba diving", "Sport fishing"],
+          "lat": 8.5349, "lng": -83.5833
+        },
+        {
+          "id": "pu-003",
+          "nombre": "Ballena Marine National Park — Uvita",
+          "nombre_en": "Ballena Marine National Park — Uvita",
+          "descripcion": "Famoso por su Tombolo en forma de cola de ballena y el avistamiento de ballenas jorobadas. Entre julio y noviembre, estas majestuosas criaturas dan a luz en sus aguas protegidas.",
+          "descripcion_en": "Famous for its whale tail-shaped tombolo and humpback whale watching. Between July and November, these majestic creatures give birth in its protected waters.",
+          "imagen_portada": "assets/img/Puntarenas/uvita/uvita-1.jpg",
+          "galeria": [
+            "assets/img/Puntarenas/uvita/uvita-1.jpg",
+            "assets/img/Puntarenas/uvita/uvita-2.jpg",
+            "assets/img/Puntarenas/uvita/uvita-3.jpg"
+          ],
+          "video": "",
+          "actividades": ["Avistamiento de ballenas", "Snorkel", "Senderismo", "Surf", "Kayak"],
+          "actividades_en": ["Whale watching", "Snorkeling", "Hiking", "Surfing", "Kayaking"],
+          "lat": 9.1558, "lng": -83.7310
+        }
+      ]
+    }
+  ]
+}
