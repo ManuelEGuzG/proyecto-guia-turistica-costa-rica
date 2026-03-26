@@ -1,251 +1,22 @@
 {
-  "provincias": [
+  "regiones": [
     {
-      "id": "san-jose",
-      "nombre": "San José",
-      "nombre_en": "San José",
-      "svgId": "CRSJ",
-      "descripcion": "El corazón cultural y político de Costa Rica. Una metrópolis vibrante rodeada de montañas, donde la historia colonial convive con el arte contemporáneo y la gastronomía de clase mundial.",
-      "descripcion_en": "The cultural and political heart of Costa Rica. A vibrant metropolis surrounded by mountains, where colonial history coexists with contemporary art and world-class gastronomy.",
-      "color": "#2D6A4F",
-      "destinos": [
-        {
-          "id": "sj-001",
-          "nombre": "Teatro Nacional de Costa Rica",
-          "nombre_en": "National Theater of Costa Rica",
-          "descripcion": "Joya arquitectónica del siglo XIX, considerado el edificio más importante de Costa Rica. Su interior decorado con pinturas europeas y mármol italiano lo hace único en Centroamérica.",
-          "descripcion_en": "19th-century architectural gem, considered the most important building in Costa Rica. Its interior decorated with European paintings and Italian marble makes it unique in Central America.",
-          "imagen_portada": "assets/img/San Jose/teatro-nacional/teatro-nacional-1.jpg",
-          "galeria": [
-            "assets/img/San Jose/teatro-nacional/teatro-nacional-1.jpg",
-            "assets/img/San Jose/teatro-nacional/teatro-nacional-2.jpg",
-            "assets/img/San Jose/teatro-nacional/teatro-nacional-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Tours guiados", "Conciertos", "Ópera", "Ballet", "Fotografía"],
-          "actividades_en": ["Guided tours", "Concerts", "Opera", "Ballet", "Photography"],
-          "lat": 9.9325, "lng": -84.0796
-        },
-        {
-          "id": "sj-002",
-          "nombre": "Mercado Central",
-          "nombre_en": "Central Market",
-          "descripcion": "El mercado más antiguo de San José, fundado en 1880. Un laberinto de sabores, aromas y colores donde los costarricenses compran frutas exóticas, mariscos frescos y artesanías tradicionales.",
-          "descripcion_en": "San José's oldest market, founded in 1880. A labyrinth of flavors, aromas and colors where Costa Ricans buy exotic fruits, fresh seafood and traditional crafts.",
-          "imagen_portada": "assets/img/San Jose/mercado-central/mercado-central-1.jpg",
-          "galeria": [
-            "assets/img/San Jose/mercado-central/mercado-central-1.jpg",
-            "assets/img/San Jose/mercado-central/mercado-central-2.jpg",
-            "assets/img/San Jose/mercado-central/mercado-central-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Gastronomía local", "Compras", "Fotografía", "Cultura popular"],
-          "actividades_en": ["Local gastronomy", "Shopping", "Photography", "Popular culture"],
-          "lat": 9.9319, "lng": -84.0839
-        },
-        {
-          "id": "sj-003",
-          "nombre": "Museo del Jade",
-          "nombre_en": "Jade Museum",
-          "descripcion": "Hogar de la colección de jade precolombino más grande del mundo. Más de 7,000 piezas arqueológicas que narran la historia de las civilizaciones indígenas de Costa Rica.",
-          "descripcion_en": "Home to the world's largest pre-Columbian jade collection. Over 7,000 archaeological pieces that tell the story of Costa Rica's indigenous civilizations.",
-          "imagen_portada": "assets/img/San Jose/museo-jade/museo-jade-1.jpg",
-          "galeria": [
-            "assets/img/San Jose/museo-jade/museo-jade-1.jpg",
-            "assets/img/San Jose/museo-jade/museo-jade-2.jpg",
-            "assets/img/San Jose/museo-jade/museo-jade-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Arqueología", "Historia", "Arte precolombino", "Educación cultural"],
-          "actividades_en": ["Archaeology", "History", "Pre-Columbian art", "Cultural education"],
-          "lat": 9.9360, "lng": -84.0779
-        }
-      ]
-    },
-    {
-      "id": "alajuela",
-      "nombre": "Alajuela",
-      "nombre_en": "Alajuela",
-      "svgId": "CRA",
-      "descripcion": "Tierra de flores y héroes, Alajuela combina el fervor patriótico con paisajes volcánicos espectaculares. Cuna de Juan Santamaría y hogar del imponente Volcán Poás.",
-      "descripcion_en": "Land of flowers and heroes, Alajuela combines patriotic fervor with spectacular volcanic landscapes. Birthplace of Juan Santamaría and home of the imposing Poás Volcano.",
-      "color": "#40916C",
-      "destinos": [
-        {
-          "id": "al-001",
-          "nombre": "Volcán Poás",
-          "nombre_en": "Poás Volcano",
-          "descripcion": "Uno de los volcanes más activos de Costa Rica. Su cráter principal contiene un lago de ácido sulfúrico de un kilómetro de diámetro, rodeado de un paisaje lunar de gran belleza.",
-          "descripcion_en": "One of Costa Rica's most active volcanoes. Its main crater contains a one-kilometer sulfuric acid lake, surrounded by a lunar landscape of great beauty.",
-          "imagen_portada": "assets/img/Alajuela/volcan-poas/volcan-poas-1.jpg",
-          "galeria": [
-            "assets/img/Alajuela/volcan-poas/volcan-poas-1.jpg",
-            "assets/img/Alajuela/volcan-poas/volcan-poas-2.jpg",
-            "assets/img/Alajuela/volcan-poas/volcan-poas-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Senderismo", "Observación volcánica", "Fotografía", "Avistamiento de aves"],
-          "actividades_en": ["Hiking", "Volcanic observation", "Photography", "Birdwatching"],
-          "lat": 10.1997, "lng": -84.2330
-        },
-        {
-          "id": "al-002",
-          "nombre": "La Fortuna & Volcán Arenal",
-          "nombre_en": "La Fortuna & Arenal Volcano",
-          "descripcion": "El Volcán Arenal dominó el horizonte con su cono perfecto durante siglos. Hoy La Fortuna ofrece aguas termales, canopy, rafting y el majestuoso lago Arenal como escenario.",
-          "descripcion_en": "Arenal Volcano dominated the horizon with its perfect cone for centuries. Today La Fortuna offers hot springs, canopy, rafting and the majestic Lake Arenal as a backdrop.",
-          "imagen_portada": "assets/img/Alajuela/volcan-arenal/volcan-arenal-1.jpg",
-          "galeria": [
-            "assets/img/Alajuela/volcan-arenal/volcan-arenal-1.jpg",
-            "assets/img/Alajuela/volcan-arenal/volcan-arenal-2.jpg",
-            "assets/img/Alajuela/volcan-arenal/volcan-arenal-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Aguas termales", "Canopy", "Rafting", "Senderismo", "Kayak"],
-          "actividades_en": ["Hot springs", "Canopy", "Rafting", "Hiking", "Kayaking"],
-          "lat": 10.4647, "lng": -84.6425
-        },
-        {
-          "id": "al-003",
-          "nombre": "Sarchi — Artesanías",
-          "nombre_en": "Sarchi — Crafts Village",
-          "descripcion": "Capital artesanal de Costa Rica, famosa por sus carretas de bueyes pintadas a mano con diseños geométricos multicolores. Declarada Patrimonio Cultural Inmaterial de la Humanidad.",
-          "descripcion_en": "Costa Rica's artisan capital, famous for its hand-painted ox carts with multicolored geometric designs. Declared Intangible Cultural Heritage of Humanity.",
-          "imagen_portada": "assets/img/Alajuela/sarchi/sarchi-1.jpg",
-          "galeria": [
-            "assets/img/Alajuela/sarchi/sarchi-1.jpg",
-            "assets/img/Alajuela/sarchi/sarchi-2.jpg",
-            "assets/img/Alajuela/sarchi/sarchi-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Artesanías", "Tallado de madera", "Compras", "Fotografía"],
-          "actividades_en": ["Crafts", "Wood carving", "Shopping", "Photography"],
-          "lat": 10.0941, "lng": -84.4155
-        }
-      ]
-    },
-    {
-      "id": "cartago",
-      "nombre": "Cartago",
-      "nombre_en": "Cartago",
-      "svgId": "CRC",
-      "descripcion": "Primera capital de Costa Rica y ciudad de profunda devoción religiosa. Custodio del Volcán Turrialba, el Valle de Orosi y la venerada Basílica de Nuestra Señora de los Ángeles.",
-      "descripcion_en": "Costa Rica's first capital and city of deep religious devotion. Guardian of Turrialba Volcano, the Orosi Valley and the revered Basilica of Our Lady of the Angels.",
-      "color": "#52B788",
-      "destinos": [
-        {
-          "id": "ca-001",
-          "nombre": "Basílica de los Ángeles",
-          "nombre_en": "Basilica of Our Lady of the Angels",
-          "descripcion": "El santuario más sagrado de Costa Rica, sede de La Negrita, patrona del país. Cada 2 de agosto miles de peregrinos llegan a pie desde todo el territorio nacional para honrarla.",
-          "descripcion_en": "Costa Rica's most sacred shrine, home of La Negrita, the country's patron saint. Every August 2nd, thousands of pilgrims walk from across the country to honor her.",
-          "imagen_portada": "assets/img/Cartago/basilica-angeles/basilica-angeles-1.jpg",
-          "galeria": [
-            "assets/img/Cartago/basilica-angeles/basilica-angeles-1.jpg",
-            "assets/img/Cartago/basilica-angeles/basilica-angeles-2.jpg",
-            "assets/img/Cartago/basilica-angeles/basilica-angeles-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Turismo religioso", "Arquitectura", "Peregrinación", "Fotografía"],
-          "actividades_en": ["Religious tourism", "Architecture", "Pilgrimage", "Photography"],
-          "lat": 9.8627, "lng": -83.9196
-        },
-        {
-          "id": "ca-002",
-          "nombre": "Valle de Orosi",
-          "nombre_en": "Orosi Valley",
-          "descripcion": "Uno de los valles más pintorescos de Costa Rica. Rodeado de montañas exuberantes, el río Reventazón serpentea entre plantaciones de café, aguas termales y ruinas coloniales.",
-          "descripcion_en": "One of Costa Rica's most picturesque valleys. Surrounded by lush mountains, the Reventazón River winds through coffee plantations, hot springs and colonial ruins.",
-          "imagen_portada": "assets/img/Cartago/valle-orosi/valle-orosi-1.jpg",
-          "galeria": [
-            "assets/img/Cartago/valle-orosi/valle-orosi-1.jpg",
-            "assets/img/Cartago/valle-orosi/valle-orosi-2.jpg",
-            "assets/img/Cartago/valle-orosi/valle-orosi-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Aguas termales", "Rafting", "Senderismo", "Café", "Ciclismo"],
-          "actividades_en": ["Hot springs", "Rafting", "Hiking", "Coffee tours", "Cycling"],
-          "lat": 9.7939, "lng": -83.8536
-        },
-        {
-          "id": "ca-003",
-          "nombre": "Volcán Turrialba",
-          "nombre_en": "Turrialba Volcano",
-          "descripcion": "Uno de los volcanes más activos de América Central. Sus recientes erupciones han cubierto de ceniza los alrededores, creando un paisaje dramático y de difícil acceso.",
-          "descripcion_en": "One of Central America's most active volcanoes. Its recent eruptions have covered the surroundings with ash, creating a dramatic and difficult-to-access landscape.",
-          "imagen_portada": "assets/img/Cartago/volcan-turrialba/volcan-turrialba-1.jpg",
-          "galeria": [
-            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-1.jpg",
-            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-2.jpg",
-            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Senderismo", "Fotografía", "Observación volcánica"],
-          "actividades_en": ["Hiking", "Photography", "Volcanic observation"],
-          "lat": 10.0250, "lng": -83.7670
-        }
-      ]
-    },
-    {
-      "id": "heredia",
-      "nombre": "Heredia",
-      "nombre_en": "Heredia",
-      "svgId": "CRH",
-      "descripcion": "La 'Ciudad de las Flores' es la cuna del café costarricense de exportación. Sus colinas fértiles albergan haciendas históricas, la vibrante cultura universitaria y el volcán Barva.",
-      "descripcion_en": "The 'City of Flowers' is the birthplace of Costa Rican export coffee. Its fertile hills harbor historic haciendas, vibrant university culture and Barva Volcano.",
-      "color": "#74C69D",
-      "destinos": [
-        {
-          "id": "he-001",
-          "nombre": "Volcán Barva",
-          "nombre_en": "Barva Volcano",
-          "descripcion": "Un coloso dormido dentro del Parque Nacional Braulio Carrillo. Sus lagunas cratéricas de aguas cristalinas y sus bosques nubosos son hogar del quetzal y el puma.",
-          "descripcion_en": "A sleeping giant within Braulio Carrillo National Park. Its crystal-clear crater lagoons and cloud forests are home to the quetzal and puma.",
-          "imagen_portada": "assets/img/Heredia/volcan-barva/volcan-barva-1.jpg",
-          "galeria": [
-            "assets/img/Heredia/volcan-barva/volcan-barva-1.jpg",
-            "assets/img/Heredia/volcan-barva/volcan-barva-2.jpg",
-            "assets/img/Heredia/volcan-barva/volcan-barva-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Senderismo", "Avistamiento de aves", "Quetzales", "Fotografía de naturaleza"],
-          "actividades_en": ["Hiking", "Birdwatching", "Quetzal spotting", "Nature photography"],
-          "lat": 10.1342, "lng": -84.1029
-        },
-        {
-          "id": "he-002",
-          "nombre": "Café Britt — Hacienda Cafetalera",
-          "nombre_en": "Café Britt — Coffee Estate",
-          "descripcion": "El tour de café más famoso de Costa Rica. Recorre las plantaciones, aprende el proceso de tostado y catación, y descubre por qué el café tico es considerado entre los mejores del mundo.",
-          "descripcion_en": "Costa Rica's most famous coffee tour. Walk through the plantations, learn the roasting and tasting process, and discover why Costa Rican coffee is considered among the world's best.",
-          "imagen_portada": "assets/img/Heredia/cafe-britt/cafe-britt-1.jpg",
-          "galeria": [
-            "assets/img/Heredia/cafe-britt/cafe-britt-1.jpg",
-            "assets/img/Heredia/cafe-britt/cafe-britt-2.jpg",
-            "assets/img/Heredia/cafe-britt/cafe-britt-3.jpg"
-          ],
-          "video": "",
-          "actividades": ["Tour de café", "Catación", "Compras", "Gastronomía"],
-          "actividades_en": ["Coffee tour", "Cupping", "Shopping", "Gastronomy"],
-          "lat": 10.0015, "lng": -84.1170
-        }
-      ]
-    },
-    {
-      "id": "guanacaste",
-      "nombre": "Guanacaste",
-      "nombre_en": "Guanacaste",
-      "svgId": "CRG",
-      "descripcion": "La provincia más soleada de Costa Rica, tierra de llanuras doradas, playas del Pacífico de aguas turquesa y una cultura sabanera profundamente arraigada.",
-      "descripcion_en": "Costa Rica's sunniest province, land of golden plains, turquoise Pacific beaches and a deeply rooted cowboy culture.",
-      "color": "#B7E4C7",
+      "id": "chorotega",
+      "nombre": "Región Chorotega",
+      "nombre_en": "Chorotega Region",
+      "svgIds": [
+        "CR-G"
+      ],
+      "color": "#E8634A",
+      "descripcion": "La región más soleada de Costa Rica. Tierra de llanuras doradas, playas del Pacífico y una cultura sabanera arraigada. Hogar de Tamarindo, Rincón de la Vieja y Playa Conchal.",
+      "descripcion_en": "Costa Rica's sunniest region. Land of golden plains, Pacific beaches and deep-rooted cowboy culture. Home to Tamarindo, Rincón de la Vieja and Playa Conchal.",
       "destinos": [
         {
           "id": "gu-001",
           "nombre": "Playa Tamarindo",
           "nombre_en": "Tamarindo Beach",
           "descripcion": "La meca del surf en Costa Rica. Tamarindo atrae surfistas de todo el mundo con sus olas perfectas, vida nocturna vibrante y atardeceres que pintan el cielo de naranja y rosa.",
-          "descripcion_en": "Costa Rica's surfing mecca. Tamarindo attracts surfers from around the world with its perfect waves, vibrant nightlife and sunsets that paint the sky orange and pink.",
+          "descripcion_en": "Costa Rica's surfing mecca. Tamarindo draws surfers from around the world with its perfect waves, vibrant nightlife and sunsets that paint the sky orange and pink.",
           "imagen_portada": "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-1.jpg",
           "galeria": [
             "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-1.jpg",
@@ -253,16 +24,52 @@
             "assets/img/Guanacaste/playa-tamarindo/playa-tamarindo-3.jpg"
           ],
           "video": "",
-          "actividades": ["Surf", "Snorkel", "Buceo", "Kayak", "Tortugas marinas"],
-          "actividades_en": ["Surfing", "Snorkeling", "Scuba diving", "Kayaking", "Sea turtles"],
-          "lat": 10.2994, "lng": -85.8412
+          "lat": 10.2994,
+          "lng": -85.8412,
+          "actividades": [
+            "Surf",
+            "Snorkel",
+            "Buceo",
+            "Kayak",
+            "Tortugas marinas"
+          ],
+          "actividades_en": [
+            "Surfing",
+            "Snorkeling",
+            "Scuba diving",
+            "Kayaking",
+            "Sea turtles"
+          ],
+          "tips": [
+            {
+              "icono": "🏄",
+              "titulo": "Clases de surf",
+              "titulo_en": "Surf lessons",
+              "texto": "Hay decenas de escuelas de surf para principiantes. Una clase de 2 horas cuesta ≈ $45–60 e incluye tabla y equipaje.",
+              "texto_en": "Dozens of surf schools cater to beginners. A 2-hour lesson costs ≈ $45–60 and includes board and equipment."
+            },
+            {
+              "icono": "🐢",
+              "titulo": "Tortugas laúd",
+              "titulo_en": "Leatherback turtles",
+              "texto": "De octubre a marzo las tortugas laúd anidan en Playa Grande (15 min). Los tours nocturnos de avistamiento son una experiencia única.",
+              "texto_en": "From October to March, leatherback turtles nest at Playa Grande (15 min away). Night watching tours are a unique experience."
+            },
+            {
+              "icono": "🌅",
+              "titulo": "Temporada seca",
+              "titulo_en": "Dry season",
+              "texto": "Guanacaste tiene la temporada seca más larga del país (nov–mayo). Fuera de esa época espera lluvias fuertes por la tarde.",
+              "texto_en": "Guanacaste has the longest dry season in the country (Nov–May). Outside that period expect heavy afternoon rains."
+            }
+          ]
         },
         {
           "id": "gu-002",
           "nombre": "Parque Nacional Rincón de la Vieja",
           "nombre_en": "Rincón de la Vieja National Park",
           "descripcion": "Un parque volcánico que parece sacado de otro planeta: pozas de lodo hirviente, fumarolas, cataratas y bosque seco tropical conviven en un mismo territorio mágico.",
-          "descripcion_en": "A volcanic park that seems from another planet: boiling mud pots, fumaroles, waterfalls and tropical dry forest coexist in the same magical territory.",
+          "descripcion_en": "A volcanic park that looks like another planet: boiling mud pots, fumaroles, waterfalls and tropical dry forest coexist in the same magical territory.",
           "imagen_portada": "assets/img/Guanacaste/rincon-vieja/rincon-vieja-1.jpg",
           "galeria": [
             "assets/img/Guanacaste/rincon-vieja/rincon-vieja-1.jpg",
@@ -270,9 +77,45 @@
             "assets/img/Guanacaste/rincon-vieja/rincon-vieja-3.jpg"
           ],
           "video": "",
-          "actividades": ["Senderismo", "Pozas termales", "Canopy", "Tubing", "Avistamiento de vida silvestre"],
-          "actividades_en": ["Hiking", "Thermal pools", "Canopy", "Tubing", "Wildlife watching"],
-          "lat": 10.7839, "lng": -85.3265
+          "lat": 10.7839,
+          "lng": -85.3265,
+          "actividades": [
+            "Senderismo",
+            "Pozas termales",
+            "Canopy",
+            "Tubing",
+            "Avistamiento de vida silvestre"
+          ],
+          "actividades_en": [
+            "Hiking",
+            "Thermal pools",
+            "Canopy",
+            "Tubing",
+            "Wildlife watching"
+          ],
+          "tips": [
+            {
+              "icono": "🌋",
+              "titulo": "Sectores del parque",
+              "titulo_en": "Park sectors",
+              "texto": "El parque tiene dos sectores: Las Pailas (acceso fácil, pozas de barro) y Santa María (más remoto). Las Pailas es el más visitado.",
+              "texto_en": "The park has two sectors: Las Pailas (easy access, mud pots) and Santa María (more remote). Las Pailas is the most visited."
+            },
+            {
+              "icono": "🦎",
+              "titulo": "Vida silvestre",
+              "titulo_en": "Wildlife",
+              "texto": "El parque alberga más de 300 especies de aves, monos congo y aranero, coatíes y quizás pumas. Camina despacio y en silencio.",
+              "texto_en": "The park harbors over 300 bird species, howler and spider monkeys, coatis and possibly pumas. Walk slowly and quietly."
+            },
+            {
+              "icono": "💧",
+              "titulo": "Catarata La Cangreja",
+              "titulo_en": "La Cangreja Waterfall",
+              "texto": "La caminata a esta catarata de aguas turquesa mide 8 km (ida y vuelta) y es una de las más espectaculares del país. Lleva suficiente agua.",
+              "texto_en": "The hike to this turquoise waterfall is 8 km round trip and one of the most spectacular in the country. Bring plenty of water."
+            }
+          ]
         },
         {
           "id": "gu-003",
@@ -287,20 +130,663 @@
             "assets/img/Guanacaste/playa-conchal/playa-conchal-3.jpg"
           ],
           "video": "",
-          "actividades": ["Snorkel", "Natación", "Buceo", "Descanso", "Fotografía"],
-          "actividades_en": ["Snorkeling", "Swimming", "Scuba diving", "Relaxation", "Photography"],
-          "lat": 10.4661, "lng": -85.8283
+          "lat": 10.4661,
+          "lng": -85.8283,
+          "actividades": [
+            "Snorkel",
+            "Natación",
+            "Buceo",
+            "Descanso",
+            "Fotografía"
+          ],
+          "actividades_en": [
+            "Snorkeling",
+            "Swimming",
+            "Scuba diving",
+            "Relaxation",
+            "Photography"
+          ],
+          "tips": [
+            {
+              "icono": "🐠",
+              "titulo": "Snorkel excepcional",
+              "titulo_en": "Exceptional snorkeling",
+              "texto": "El fondo marino de Conchal alberga tortugas verdes, rayos y peces tropicales de colores. Renta equipo en Brasilito por ≈ $10.",
+              "texto_en": "Conchal's seabed hosts green turtles, rays and colorful tropical fish. Rent gear in Brasilito for ≈ $10."
+            },
+            {
+              "icono": "👟",
+              "titulo": "Calzado para arena",
+              "titulo_en": "Footwear for shells",
+              "texto": "Las conchas pueden ser filosas bajo el calor del mediodía. Usa sandalias de agua o escarpines para caminar por la orilla.",
+              "texto_en": "The shells can be sharp under midday heat. Use water sandals or aqua shoes to walk along the shore."
+            },
+            {
+              "icono": "🅿️",
+              "titulo": "Acceso y estacionamiento",
+              "titulo_en": "Access and parking",
+              "texto": "No hay estacionamiento oficial en la playa. Deja el auto en Brasilito (5 min a pie) y evita los cobros informales en la entrada.",
+              "texto_en": "There is no official parking at the beach. Leave your car in Brasilito (5 min walk) to avoid informal charges at the entrance."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "limon",
-      "nombre": "Limón",
-      "nombre_en": "Limón",
-      "svgId": "CRL",
-      "descripcion": "La provincia del Caribe costarricense, donde el ritmo del calypso llena el aire, la cocina afrocaribeña conquista el paladar y la naturaleza explota en colores tropicales.",
-      "descripcion_en": "Costa Rica's Caribbean province, where calypso rhythms fill the air, Afro-Caribbean cuisine conquers the palate and nature explodes in tropical colors.",
+      "id": "huetar-norte",
+      "nombre": "Región Huetar Norte",
+      "nombre_en": "Huetar Norte Region",
+      "svgIds": [
+        "CR-A"
+      ],
+      "color": "#52B788",
+      "descripcion": "Zona de volcanes, selvas tropicales y aventura. Hogar del imponente Volcán Arenal, las aguas termales de La Fortuna y las artesanías de Sarchi.",
+      "descripcion_en": "Region of volcanoes, tropical jungles and adventure. Home to the imposing Arenal Volcano, La Fortuna hot springs and Sarchi crafts.",
+      "destinos": [
+        {
+          "id": "al-001",
+          "nombre": "Volcán Poás",
+          "nombre_en": "Poás Volcano",
+          "descripcion": "Uno de los volcanes más activos de Costa Rica. Su cráter principal contiene un lago de ácido sulfúrico de un kilómetro de diámetro, rodeado de un paisaje lunar de gran belleza.",
+          "descripcion_en": "One of Costa Rica's most active volcanoes. Its main crater contains a one-kilometer sulfuric acid lake, surrounded by a lunar landscape of great beauty.",
+          "imagen_portada": "assets/img/Alajuela/volcan-poas/volcan-poas-1.jpg",
+          "galeria": [
+            "assets/img/Alajuela/volcan-poas/volcan-poas-1.jpg",
+            "assets/img/Alajuela/volcan-poas/volcan-poas-2.jpg",
+            "assets/img/Alajuela/volcan-poas/volcan-poas-3.jpg"
+          ],
+          "video": "",
+          "lat": 10.1997,
+          "lng": -84.233,
+          "actividades": [
+            "Senderismo",
+            "Observación volcánica",
+            "Fotografía",
+            "Avistamiento de aves"
+          ],
+          "actividades_en": [
+            "Hiking",
+            "Volcanic observation",
+            "Photography",
+            "Birdwatching"
+          ],
+          "tips": [
+            {
+              "icono": "🌡️",
+              "titulo": "Ropa abrigada",
+              "titulo_en": "Wear warm layers",
+              "texto": "A 2,700 m de altitud, la temperatura puede bajar de 10°C. Lleva chaqueta aunque en San José haga calor. El frío llega repentinamente.",
+              "texto_en": "At 2,700 m altitude, temperatures can drop below 10°C. Bring a jacket even if it's warm in San José. Cold arrives suddenly."
+            },
+            {
+              "icono": "🕗",
+              "titulo": "Llega temprano",
+              "titulo_en": "Arrive early",
+              "texto": "El parque abre a las 8 am. Llegar en las primeras horas aumenta las probabilidades de ver el cráter sin nubes.",
+              "texto_en": "The park opens at 8 am. Arriving in the first hours greatly increases your chances of seeing the crater cloud-free."
+            },
+            {
+              "icono": "😷",
+              "titulo": "Mascarilla recomendada",
+              "titulo_en": "Mask recommended",
+              "texto": "Los gases volcánicos pueden ser irritantes. Se recomienda mascarilla N95 cerca del cráter, especialmente en días de alta actividad.",
+              "texto_en": "Volcanic gases can be irritating. An N95 mask is recommended near the crater, especially on high-activity days."
+            }
+          ]
+        },
+        {
+          "id": "al-002",
+          "nombre": "La Fortuna & Volcán Arenal",
+          "nombre_en": "La Fortuna & Arenal Volcano",
+          "descripcion": "El Volcán Arenal dominó el horizonte con su cono perfecto durante siglos. Hoy La Fortuna ofrece aguas termales, canopy, rafting y el majestuoso lago Arenal como escenario.",
+          "descripcion_en": "Arenal Volcano dominated the horizon with its perfect cone for centuries. Today La Fortuna offers hot springs, canopy, rafting and the majestic Lake Arenal as a backdrop.",
+          "imagen_portada": "assets/img/Alajuela/volcan-arenal/volcan-arenal-1.jpg",
+          "galeria": [
+            "assets/img/Alajuela/volcan-arenal/volcan-arenal-1.jpg",
+            "assets/img/Alajuela/volcan-arenal/volcan-arenal-2.jpg",
+            "assets/img/Alajuela/volcan-arenal/volcan-arenal-3.jpg"
+          ],
+          "video": "",
+          "lat": 10.4647,
+          "lng": -84.6425,
+          "actividades": [
+            "Aguas termales",
+            "Canopy",
+            "Rafting",
+            "Senderismo",
+            "Kayak"
+          ],
+          "actividades_en": [
+            "Hot springs",
+            "Canopy",
+            "Rafting",
+            "Hiking",
+            "Kayaking"
+          ],
+          "tips": [
+            {
+              "icono": "🌋",
+              "titulo": "Vista del volcán",
+              "titulo_en": "Volcano view",
+              "texto": "El Arenal suele estar nublado por las tardes. Para mejores vistas llega en la mañana o reserva un tour al amanecer.",
+              "texto_en": "Arenal is often cloudy in the afternoons. For the best views, arrive in the morning or book a sunrise tour."
+            },
+            {
+              "icono": "♨️",
+              "titulo": "Aguas termales",
+              "titulo_en": "Hot springs",
+              "texto": "Hay opciones para todos los presupuestos: desde las gratuitas en el río Tabacón hasta lujosos spas como Baldi y Eco Termales.",
+              "texto_en": "Options exist for every budget: from the free Tabacón river pools to luxury spas like Baldi and Eco Termales."
+            },
+            {
+              "icono": "🚌",
+              "titulo": "Tour o transporte",
+              "titulo_en": "Tour or transport",
+              "texto": "El shuttle Arenal-San José cuesta ≈ $50. Los tours combinados de termal+volcán+canopy ofrecen la mejor relación precio-experiencia.",
+              "texto_en": "The Arenal–San José shuttle costs ≈ $50. Combined hot springs + volcano + canopy tours offer the best value for money."
+            }
+          ]
+        },
+        {
+          "id": "al-003",
+          "nombre": "Sarchi — Artesanías",
+          "nombre_en": "Sarchi — Crafts Village",
+          "descripcion": "Capital artesanal de Costa Rica, famosa por sus carretas de bueyes pintadas a mano con diseños geométricos multicolores. Declarada Patrimonio Cultural Inmaterial de la Humanidad.",
+          "descripcion_en": "Costa Rica's artisan capital, famous for its hand-painted ox carts with multicolored geometric designs. Declared Intangible Cultural Heritage of Humanity.",
+          "imagen_portada": "assets/img/Alajuela/sarchi/sarchi-1.jpg",
+          "galeria": [
+            "assets/img/Alajuela/sarchi/sarchi-1.jpg",
+            "assets/img/Alajuela/sarchi/sarchi-2.jpg",
+            "assets/img/Alajuela/sarchi/sarchi-3.jpg"
+          ],
+          "video": "",
+          "lat": 10.0941,
+          "lng": -84.4155,
+          "actividades": [
+            "Artesanías",
+            "Tallado de madera",
+            "Compras",
+            "Fotografía"
+          ],
+          "actividades_en": [
+            "Crafts",
+            "Wood carving",
+            "Shopping",
+            "Photography"
+          ],
+          "tips": [
+            {
+              "icono": "🛒",
+              "titulo": "Compra directamente",
+              "titulo_en": "Buy directly",
+              "texto": "Para mejores precios y productos auténticos, compra directo a los artesanos en los talleres del pueblo en lugar de las tiendas grandes.",
+              "texto_en": "For better prices and authentic pieces, buy directly from artisans in village workshops rather than large tourist stores."
+            },
+            {
+              "icono": "🎨",
+              "titulo": "Taller de pintura",
+              "titulo_en": "Painting workshop",
+              "texto": "Varios talleres ofrecen clases donde puedes pintar tu propio diseño en una carreta en miniatura. ¡Ideal como recuerdo único!",
+              "texto_en": "Several workshops offer classes where you can paint your own design on a miniature ox cart. A perfect unique souvenir!"
+            },
+            {
+              "icono": "🚌",
+              "titulo": "Combina con Poás",
+              "titulo_en": "Combine with Poás",
+              "texto": "Sarchi queda de paso entre San José y el Volcán Poás. Combina ambas visitas en un mismo día para aprovechar el recorrido.",
+              "texto_en": "Sarchi is on the way between San José and Poás Volcano. Combine both visits in one day to make the most of the trip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central-norte",
+      "nombre": "Región Central Norte",
+      "nombre_en": "Central Norte Region",
+      "svgIds": [
+        "CR-H"
+      ],
+      "color": "#40916C",
+      "descripcion": "La \"Ciudad de las Flores\", cuna del café costarricense. Sus colinas albergan haciendas históricas, el Volcán Barva y una vibrante cultura universitaria.",
+      "descripcion_en": "The \"City of Flowers\", birthplace of Costa Rican coffee. Its hills harbor historic haciendas, Barva Volcano and a vibrant university culture.",
+      "destinos": [
+        {
+          "id": "he-001",
+          "nombre": "Volcán Barva",
+          "nombre_en": "Barva Volcano",
+          "descripcion": "Un coloso dormido dentro del Parque Nacional Braulio Carrillo. Sus lagunas cratéricas de aguas cristalinas y sus bosques nubosos son hogar del quetzal y el puma.",
+          "descripcion_en": "A sleeping giant within Braulio Carrillo National Park. Its crystal-clear crater lagoons and cloud forests are home to the quetzal and puma.",
+          "imagen_portada": "assets/img/Heredia/volcan-barva/volcan-barva-1.jpg",
+          "galeria": [
+            "assets/img/Heredia/volcan-barva/volcan-barva-1.jpg",
+            "assets/img/Heredia/volcan-barva/volcan-barva-2.jpg",
+            "assets/img/Heredia/volcan-barva/volcan-barva-3.jpg"
+          ],
+          "video": "",
+          "lat": 10.1342,
+          "lng": -84.1029,
+          "actividades": [
+            "Senderismo",
+            "Avistamiento de aves",
+            "Quetzales",
+            "Fotografía de naturaleza"
+          ],
+          "actividades_en": [
+            "Hiking",
+            "Birdwatching",
+            "Quetzal spotting",
+            "Nature photography"
+          ],
+          "tips": [
+            {
+              "icono": "🐦",
+              "titulo": "Busca el quetzal",
+              "titulo_en": "Spot the quetzal",
+              "texto": "Los quetzales se avistan principalmente de enero a mayo durante la temporada de reproducción. Llega al amanecer para mejores oportunidades.",
+              "texto_en": "Quetzals are most sighted from January to May during breeding season. Arrive at dawn for the best chances."
+            },
+            {
+              "icono": "🌫️",
+              "titulo": "Bosque nuboso",
+              "titulo_en": "Cloud forest",
+              "texto": "El bosque es húmedo todo el año. Lleva ropa impermeable y calzado resistente al barro. Las temperaturas rondan los 12–18°C.",
+              "texto_en": "The forest is wet year-round. Bring waterproof clothing and mud-resistant footwear. Temperatures range from 12–18°C."
+            },
+            {
+              "icono": "🗺️",
+              "titulo": "Sendero al cráter",
+              "titulo_en": "Crater trail",
+              "texto": "El sendero al cráter desde el Puesto Sacramento mide 4 km (ida y vuelta). Dura ≈ 3 horas. Lleva agua y snacks suficientes.",
+              "texto_en": "The trail to the crater from Sacramento Station is 4 km round trip. Takes ≈ 3 hours. Bring enough water and snacks."
+            }
+          ]
+        },
+        {
+          "id": "he-002",
+          "nombre": "Café Britt — Hacienda Cafetalera",
+          "nombre_en": "Café Britt — Coffee Estate",
+          "descripcion": "El tour de café más famoso de Costa Rica. Recorre las plantaciones, aprende el proceso de tostado y catación, y descubre por qué el café tico es considerado entre los mejores del mundo.",
+          "descripcion_en": "Costa Rica's most famous coffee tour. Walk through the plantations, learn the roasting and tasting process, and discover why Costa Rican coffee ranks among the world's finest.",
+          "imagen_portada": "assets/img/Heredia/cafe-britt/cafe-britt-1.jpg",
+          "galeria": [
+            "assets/img/Heredia/cafe-britt/cafe-britt-1.jpg",
+            "assets/img/Heredia/cafe-britt/cafe-britt-2.jpg",
+            "assets/img/Heredia/cafe-britt/cafe-britt-3.jpg"
+          ],
+          "video": "",
+          "lat": 10.0015,
+          "lng": -84.117,
+          "actividades": [
+            "Tour de café",
+            "Catación",
+            "Compras",
+            "Gastronomía"
+          ],
+          "actividades_en": [
+            "Coffee tour",
+            "Cupping",
+            "Shopping",
+            "Gastronomy"
+          ],
+          "tips": [
+            {
+              "icono": "☕",
+              "titulo": "Reserva el tour",
+              "titulo_en": "Book the tour",
+              "texto": "Los tours duran ≈ 1.5 horas e incluyen actuaciones teatrales del ciclo del café. Reserva con anticipación en temporada alta (dic–ene).",
+              "texto_en": "Tours last ≈ 1.5 hours and include theatrical performances of the coffee cycle. Book ahead during high season (Dec–Jan)."
+            },
+            {
+              "icono": "🛍️",
+              "titulo": "Tienda especializada",
+              "titulo_en": "Specialty store",
+              "texto": "La tienda de Café Britt tiene los mejores precios en café de altura costarricense. Ideal para traer como regalo o recuerdo.",
+              "texto_en": "The Café Britt store has the best prices on Costa Rican highland coffee. Perfect for gifts or souvenirs."
+            },
+            {
+              "icono": "🚌",
+              "titulo": "Transporte incluido",
+              "titulo_en": "Transport included",
+              "texto": "El tour ofrece recogida desde hoteles en San José incluida en el precio. Una opción cómoda si no tienes carro.",
+              "texto_en": "The tour includes hotel pickup from San José properties at no extra cost. A convenient option if you don't have a car."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central-sur",
+      "nombre": "Región Central Sur",
+      "nombre_en": "Central Sur Region",
+      "svgIds": [
+        "CR-SJ",
+        "CR-C"
+      ],
+      "color": "#2D6A4F",
+      "descripcion": "El corazón cultural y político del país. San José capital y Cartago, primera capital, concentran el Teatro Nacional, el Mercado Central, la Basílica de los Ángeles y el Valle de Orosi.",
+      "descripcion_en": "The cultural and political heart of the country. San José and Cartago concentrate the National Theater, Central Market, Basilica of Angels and Orosi Valley.",
+      "destinos": [
+        {
+          "id": "sj-001",
+          "nombre": "Teatro Nacional de Costa Rica",
+          "nombre_en": "National Theater of Costa Rica",
+          "descripcion": "Joya arquitectónica del siglo XIX, considerado el edificio más importante de Costa Rica. Su interior decorado con pinturas europeas y mármol italiano lo hace único en Centroamérica.",
+          "descripcion_en": "19th-century architectural gem, considered Costa Rica's most important building. Its interior adorned with European paintings and Italian marble makes it unique in Central America.",
+          "imagen_portada": "assets/img/San Jose/teatro-nacional/teatro-nacional-1.jpg",
+          "galeria": [
+            "assets/img/San Jose/teatro-nacional/teatro-nacional-1.jpg",
+            "assets/img/San Jose/teatro-nacional/teatro-nacional-2.jpg",
+            "assets/img/San Jose/teatro-nacional/teatro-nacional-3.jpg"
+          ],
+          "video": "",
+          "lat": 9.9325,
+          "lng": -84.0796,
+          "actividades": [
+            "Tours guiados",
+            "Conciertos",
+            "Ópera",
+            "Ballet",
+            "Fotografía"
+          ],
+          "actividades_en": [
+            "Guided tours",
+            "Concerts",
+            "Opera",
+            "Ballet",
+            "Photography"
+          ],
+          "tips": [
+            {
+              "icono": "🎭",
+              "titulo": "Reserva con anticipación",
+              "titulo_en": "Book in advance",
+              "texto": "Las funciones de ópera y ballet se agotan rápidamente. Compra tus entradas en línea con al menos una semana de anticipación.",
+              "texto_en": "Opera and ballet performances sell out fast. Buy your tickets online at least one week ahead."
+            },
+            {
+              "icono": "👔",
+              "titulo": "Código de vestimenta",
+              "titulo_en": "Dress code",
+              "texto": "Para funciones nocturnas se recomienda vestimenta formal o semiformal. Los tours diurnos admiten ropa casual.",
+              "texto_en": "Evening performances call for formal or semi-formal attire. Daytime tours allow casual dress."
+            },
+            {
+              "icono": "📸",
+              "titulo": "Fotografía permitida",
+              "titulo_en": "Photography allowed",
+              "texto": "Puedes fotografiar el vestíbulo y el foyer durante los tours. No se permite fotografiar durante las funciones.",
+              "texto_en": "You may photograph the lobby and foyer during tours. Photography during performances is not allowed."
+            }
+          ]
+        },
+        {
+          "id": "sj-002",
+          "nombre": "Mercado Central",
+          "nombre_en": "Central Market",
+          "descripcion": "El mercado más antiguo de San José, fundado en 1880. Un laberinto de sabores, aromas y colores donde los costarricenses compran frutas exóticas, mariscos frescos y artesanías tradicionales.",
+          "descripcion_en": "San José's oldest market, founded in 1880. A labyrinth of flavors, aromas and colors where Costa Ricans buy exotic fruits, fresh seafood and traditional crafts.",
+          "imagen_portada": "assets/img/San Jose/mercado-central/mercado-central-1.jpg",
+          "galeria": [
+            "assets/img/San Jose/mercado-central/mercado-central-1.jpg",
+            "assets/img/San Jose/mercado-central/mercado-central-2.jpg",
+            "assets/img/San Jose/mercado-central/mercado-central-3.jpg"
+          ],
+          "video": "",
+          "lat": 9.9319,
+          "lng": -84.0839,
+          "actividades": [
+            "Gastronomía local",
+            "Compras",
+            "Fotografía",
+            "Cultura popular"
+          ],
+          "actividades_en": [
+            "Local gastronomy",
+            "Shopping",
+            "Photography",
+            "Popular culture"
+          ],
+          "tips": [
+            {
+              "icono": "⏰",
+              "titulo": "Mejor horario",
+              "titulo_en": "Best time to visit",
+              "texto": "Visítalo entre semana por la mañana (8–11 am) para evitar aglomeraciones y ver el mercado en su máxima actividad.",
+              "texto_en": "Visit on weekday mornings (8–11 am) to avoid crowds and see the market at its most vibrant."
+            },
+            {
+              "icono": "💵",
+              "titulo": "Lleva efectivo",
+              "titulo_en": "Bring cash",
+              "texto": "La mayoría de puestos no aceptan tarjeta. Colones costarricenses son preferidos, aunque dólares son aceptados en muchos locales.",
+              "texto_en": "Most stalls are cash-only. Costa Rican colones are preferred, though dollars are accepted at many spots."
+            },
+            {
+              "icono": "🦺",
+              "titulo": "Cuida tus pertenencias",
+              "titulo_en": "Watch your belongings",
+              "texto": "Como en cualquier mercado concurrido, mantén tu bolso al frente y guarda el teléfono en el bolsillo.",
+              "texto_en": "As in any busy market, keep your bag in front of you and phone in your pocket."
+            }
+          ]
+        },
+        {
+          "id": "sj-003",
+          "nombre": "Museo del Jade",
+          "nombre_en": "Jade Museum",
+          "descripcion": "Hogar de la colección de jade precolombino más grande del mundo. Más de 7,000 piezas arqueológicas que narran la historia de las civilizaciones indígenas de Costa Rica.",
+          "descripcion_en": "Home to the world's largest pre-Columbian jade collection. Over 7,000 archaeological pieces that tell the story of Costa Rica's indigenous civilizations.",
+          "imagen_portada": "assets/img/San Jose/museo-jade/museo-jade-1.jpg",
+          "galeria": [
+            "assets/img/San Jose/museo-jade/museo-jade-1.jpg",
+            "assets/img/San Jose/museo-jade/museo-jade-2.jpg",
+            "assets/img/San Jose/museo-jade/museo-jade-3.jpg"
+          ],
+          "video": "",
+          "lat": 9.936,
+          "lng": -84.0779,
+          "actividades": [
+            "Arqueología",
+            "Historia",
+            "Arte precolombino",
+            "Educación cultural"
+          ],
+          "actividades_en": [
+            "Archaeology",
+            "History",
+            "Pre-Columbian art",
+            "Cultural education"
+          ],
+          "tips": [
+            {
+              "icono": "🎧",
+              "titulo": "Audio guía disponible",
+              "titulo_en": "Audio guide available",
+              "texto": "El museo ofrece audio guías en español e inglés incluidas en el precio de entrada. Son muy recomendables para aprovechar al máximo la visita.",
+              "texto_en": "The museum offers audio guides in Spanish and English included in the ticket price. Highly recommended to make the most of your visit."
+            },
+            {
+              "icono": "🕐",
+              "titulo": "Planea 2 horas",
+              "titulo_en": "Plan 2 hours",
+              "texto": "La colección es extensa y fascinante. Reserva al menos dos horas para recorrer todas las salas sin apuro.",
+              "texto_en": "The collection is extensive and fascinating. Set aside at least two hours to explore all galleries without rushing."
+            },
+            {
+              "icono": "🌐",
+              "titulo": "5° piso imperdible",
+              "titulo_en": "5th floor is a must",
+              "texto": "El último piso ofrece una vista panorámica de San José y alberga la colección de cerámicas precolombinas más llamativa del museo.",
+              "texto_en": "The top floor offers a panoramic view of San José and houses the museum's most stunning pre-Columbian ceramics collection."
+            }
+          ]
+        },
+        {
+          "id": "ca-001",
+          "nombre": "Basílica de los Ángeles",
+          "nombre_en": "Basilica of Our Lady of the Angels",
+          "descripcion": "El santuario más sagrado de Costa Rica, sede de La Negrita, patrona del país. Cada 2 de agosto miles de peregrinos llegan a pie desde todo el territorio nacional para honrarla.",
+          "descripcion_en": "Costa Rica's most sacred shrine, home of La Negrita, the country's patron saint. Every August 2nd, thousands of pilgrims walk from across the country to honor her.",
+          "imagen_portada": "assets/img/Cartago/basilica-angeles/basilica-angeles-1.jpg",
+          "galeria": [
+            "assets/img/Cartago/basilica-angeles/basilica-angeles-1.jpg",
+            "assets/img/Cartago/basilica-angeles/basilica-angeles-2.jpg",
+            "assets/img/Cartago/basilica-angeles/basilica-angeles-3.jpg"
+          ],
+          "video": "",
+          "lat": 9.8627,
+          "lng": -83.9196,
+          "actividades": [
+            "Turismo religioso",
+            "Arquitectura",
+            "Peregrinación",
+            "Fotografía"
+          ],
+          "actividades_en": [
+            "Religious tourism",
+            "Architecture",
+            "Pilgrimage",
+            "Photography"
+          ],
+          "tips": [
+            {
+              "icono": "🕯️",
+              "titulo": "Horarios de misa",
+              "titulo_en": "Mass schedule",
+              "texto": "La basílica tiene misas diarias. Si quieres visitar en silencio evita los horarios de misa (6, 8, 10 am y 6 pm). La entrada es gratuita.",
+              "texto_en": "The basilica has daily masses. Visit during non-mass hours for a quiet experience (masses at 6, 8, 10 am & 6 pm). Entry is free."
+            },
+            {
+              "icono": "🗝️",
+              "titulo": "Cripta de La Negrita",
+              "titulo_en": "Crypt of La Negrita",
+              "texto": "Bajo la basílica yace la cripta donde se venera la imagen original de La Negrita. Es uno de los lugares más espirituales del país.",
+              "texto_en": "Beneath the basilica lies the crypt housing La Negrita's original image. It is one of the most spiritually moving places in the country."
+            },
+            {
+              "icono": "📅",
+              "titulo": "2 de agosto",
+              "titulo_en": "August 2nd",
+              "texto": "La romería anual lleva a más de un millón de peregrinos a Cartago. Si visitas ese día prepárate para la multitud o plánelo con antelación.",
+              "texto_en": "The annual pilgrimage brings over one million walkers to Cartago. If visiting that day, prepare for massive crowds or plan well ahead."
+            }
+          ]
+        },
+        {
+          "id": "ca-002",
+          "nombre": "Valle de Orosi",
+          "nombre_en": "Orosi Valley",
+          "descripcion": "Uno de los valles más pintorescos de Costa Rica. Rodeado de montañas exuberantes, el río Reventazón serpentea entre plantaciones de café, aguas termales y ruinas coloniales.",
+          "descripcion_en": "One of Costa Rica's most picturesque valleys. Surrounded by lush mountains, the Reventazón River winds through coffee plantations, hot springs and colonial ruins of great historical value.",
+          "imagen_portada": "assets/img/Cartago/valle-orosi/valle-orosi-1.jpg",
+          "galeria": [
+            "assets/img/Cartago/valle-orosi/valle-orosi-1.jpg",
+            "assets/img/Cartago/valle-orosi/valle-orosi-2.jpg",
+            "assets/img/Cartago/valle-orosi/valle-orosi-3.jpg"
+          ],
+          "video": "",
+          "lat": 9.7939,
+          "lng": -83.8536,
+          "actividades": [
+            "Aguas termales",
+            "Rafting",
+            "Senderismo",
+            "Café",
+            "Ciclismo"
+          ],
+          "actividades_en": [
+            "Hot springs",
+            "Rafting",
+            "Hiking",
+            "Coffee tours",
+            "Cycling"
+          ],
+          "tips": [
+            {
+              "icono": "🚴",
+              "titulo": "Ruta ciclista",
+              "titulo_en": "Cycling route",
+              "texto": "El valle tiene una ruta circular de 35 km ideal para ciclismo. Puedes rentar bicicletas en Paraíso de Cartago por ≈ $15 el día.",
+              "texto_en": "The valley has a 35 km circular cycling route. You can rent bikes in Paraíso de Cartago for ≈ $15 a day."
+            },
+            {
+              "icono": "🏛️",
+              "titulo": "Ruinas de Ujarrás",
+              "titulo_en": "Ujarrás Ruins",
+              "texto": "Las ruinas de la iglesia de Ujarrás (1666) son las más antiguas del país. Están a solo 10 min del centro de Orosi y la entrada es libre.",
+              "texto_en": "The Ujarrás church ruins (1666) are the oldest in the country. Just 10 min from Orosi center, with free entry."
+            },
+            {
+              "icono": "☕",
+              "titulo": "Tour de café",
+              "titulo_en": "Coffee tour",
+              "texto": "La región produce café de especialidad. El tour en Finca Cántaros incluye cosecha, beneficiado y degustación por ≈ $25 por persona.",
+              "texto_en": "The region produces specialty coffee. The Finca Cántaros tour includes harvesting, processing and tasting for ≈ $25 per person."
+            }
+          ]
+        },
+        {
+          "id": "ca-003",
+          "nombre": "Volcán Turrialba",
+          "nombre_en": "Turrialba Volcano",
+          "descripcion": "Uno de los volcanes más activos de América Central. Sus recientes erupciones han cubierto de ceniza los alrededores, creando un paisaje dramático y de difícil acceso.",
+          "descripcion_en": "One of Central America's most active volcanoes. Its recent eruptions have blanketed the surroundings in ash, creating a dramatic and challenging landscape.",
+          "imagen_portada": "assets/img/Cartago/volcan-turrialba/volcan-turrialba-1.jpg",
+          "galeria": [
+            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-1.jpg",
+            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-2.jpg",
+            "assets/img/Cartago/volcan-turrialba/volcan-turrialba-3.jpg"
+          ],
+          "video": "",
+          "lat": 10.025,
+          "lng": -83.767,
+          "actividades": [
+            "Senderismo",
+            "Fotografía",
+            "Observación volcánica"
+          ],
+          "actividades_en": [
+            "Hiking",
+            "Photography",
+            "Volcanic observation"
+          ],
+          "tips": [
+            {
+              "icono": "⚠️",
+              "titulo": "Verifica acceso",
+              "titulo_en": "Check access",
+              "texto": "El acceso al cráter puede estar restringido por actividad volcánica. Consulta el OVSICORI (ovsicori.una.ac.cr) antes de ir.",
+              "texto_en": "Access to the crater may be restricted due to volcanic activity. Check OVSICORI (ovsicori.una.ac.cr) before going."
+            },
+            {
+              "icono": "🥾",
+              "titulo": "4×4 necesario",
+              "titulo_en": "4×4 required",
+              "texto": "Los caminos hacia el volcán son de lastre y barro. Se requiere vehículo 4×4 de alta gama. No apto para sedanes ni vehículos pequeños.",
+              "texto_en": "Roads to the volcano are gravel and mud. A high-clearance 4×4 is required. Not suitable for sedans or small vehicles."
+            },
+            {
+              "icono": "😷",
+              "titulo": "Protección respiratoria",
+              "titulo_en": "Respiratory protection",
+              "texto": "Lleva mascarilla N95 obligatoriamente. Los gases de dióxido de azufre son irritantes para ojos y vías respiratorias.",
+              "texto_en": "An N95 mask is mandatory. Sulfur dioxide gases are irritating to eyes and respiratory tract."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huetar-atlantico",
+      "nombre": "Región Huetar Atlántico",
+      "nombre_en": "Huetar Atlántico Region",
+      "svgIds": [
+        "CR-L"
+      ],
       "color": "#1B4332",
+      "descripcion": "El Caribe costarricense, donde el calypso llena el aire y la cocina afrocaribeña conquista el paladar. Hogar de Cahuita, Puerto Viejo y los corales del Atlántico.",
+      "descripcion_en": "The Costa Rican Caribbean, where calypso fills the air and Afro-Caribbean cuisine conquers the palate. Home to Cahuita, Puerto Viejo and Atlantic coral reefs.",
       "destinos": [
         {
           "id": "li-001",
@@ -315,16 +801,52 @@
             "assets/img/Limon/cahuita/cahuita-3.jpg"
           ],
           "video": "",
-          "actividades": ["Snorkel", "Senderismo", "Avistamiento de perezosos", "Natación", "Tortugas marinas"],
-          "actividades_en": ["Snorkeling", "Hiking", "Sloth watching", "Swimming", "Sea turtles"],
-          "lat": 9.7369, "lng": -82.8411
+          "lat": 9.7369,
+          "lng": -82.8411,
+          "actividades": [
+            "Snorkel",
+            "Senderismo",
+            "Avistamiento de perezosos",
+            "Natación",
+            "Tortugas marinas"
+          ],
+          "actividades_en": [
+            "Snorkeling",
+            "Hiking",
+            "Sloth watching",
+            "Swimming",
+            "Sea turtles"
+          ],
+          "tips": [
+            {
+              "icono": "🐊",
+              "titulo": "Cocodrilos en el río",
+              "titulo_en": "Crocodiles in the river",
+              "texto": "La desembocadura del Río Carbón en la entrada al parque alberga cocodrilos. No te bañes ahí aunque el agua parezca tranquila.",
+              "texto_en": "The mouth of the Río Carbón at the park entrance has crocodiles. Do not swim there even if the water looks calm."
+            },
+            {
+              "icono": "🌊",
+              "titulo": "Corales frágiles",
+              "titulo_en": "Fragile corals",
+              "texto": "El arrecife de Cahuita está en recuperación. No toques los corales durante el snorkel y no uses protector solar convencional (usa el mineral).",
+              "texto_en": "Cahuita's reef is in recovery. Don't touch the corals while snorkeling and avoid conventional sunscreen (use mineral-based)."
+            },
+            {
+              "icono": "🦥",
+              "titulo": "Perezosos en el sendero",
+              "titulo_en": "Sloths on the trail",
+              "texto": "El sendero costero de 8 km es plano y fácil. Mira hacia las copas de los árboles de guarumo: ahí duermen los perezosos de 3 dedos.",
+              "texto_en": "The 8 km coastal trail is flat and easy. Look up into cecropia treetops: that's where three-toed sloths sleep."
+            }
+          ]
         },
         {
           "id": "li-002",
           "nombre": "Puerto Viejo de Talamanca",
           "nombre_en": "Puerto Viejo de Talamanca",
           "descripcion": "El epicentro del Caribe costarricense. Playas de ensueño como Playa Cocles y Punta Uva, la cultura bribri indígena y las legendarias olas de la Salsa Brava.",
-          "descripcion_en": "The epicenter of the Costa Rican Caribbean. Dream beaches like Playa Cocles and Punta Uva, Bribri indigenous culture and the legendary waves of Salsa Brava.",
+          "descripcion_en": "The epicenter of the Costa Rican Caribbean. Dream beaches like Playa Cocles and Punta Uva, Bribri indigenous culture and the legendary Salsa Brava waves.",
           "imagen_portada": "assets/img/Limon/puerto-viejo/puerto-viejo-1.jpg",
           "galeria": [
             "assets/img/Limon/puerto-viejo/puerto-viejo-1.jpg",
@@ -332,20 +854,58 @@
             "assets/img/Limon/puerto-viejo/puerto-viejo-3.jpg"
           ],
           "video": "",
-          "actividades": ["Surf", "Ciclismo", "Cultura indígena", "Gastronomía caribeña", "Buceo"],
-          "actividades_en": ["Surfing", "Cycling", "Indigenous culture", "Caribbean cuisine", "Scuba diving"],
-          "lat": 9.6558, "lng": -82.7536
+          "lat": 9.6558,
+          "lng": -82.7536,
+          "actividades": [
+            "Surf",
+            "Ciclismo",
+            "Cultura indígena",
+            "Gastronomía caribeña",
+            "Buceo"
+          ],
+          "actividades_en": [
+            "Surfing",
+            "Cycling",
+            "Indigenous culture",
+            "Caribbean cuisine",
+            "Scuba diving"
+          ],
+          "tips": [
+            {
+              "icono": "🍛",
+              "titulo": "Comida caribeña",
+              "titulo_en": "Caribbean food",
+              "texto": "No te vayas sin probar el rice and beans (domingo), el rondón de mariscos y el pan bon. La Esquina del Sabor es imperdible.",
+              "texto_en": "Don't leave without trying rice and beans (Sundays), seafood rundown stew and pan bon bread. La Esquina del Sabor is a must."
+            },
+            {
+              "icono": "🚲",
+              "titulo": "Alquila una bici",
+              "titulo_en": "Rent a bike",
+              "texto": "La ruta costera entre Puerto Viejo y Manzanillo (15 km) es perfecta en bicicleta. Puedes rentar por ≈ $10 el día en el pueblo.",
+              "texto_en": "The coastal route between Puerto Viejo and Manzanillo (15 km) is perfect by bike. Rent for ≈ $10/day in the village."
+            },
+            {
+              "icono": "🌿",
+              "titulo": "Reserva Bribri",
+              "titulo_en": "Bribri Reserve",
+              "texto": "Los tours a la reserva Bribri de Yorkin y Talamanca muestran el cacao sagrado, medicina tradicional y la cosmovisión de este pueblo ancestral.",
+              "texto_en": "Tours to the Bribri reserves of Yorkin and Talamanca showcase sacred cacao, traditional medicine and the worldview of this ancient people."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "puntarenas",
-      "nombre": "Puntarenas",
-      "nombre_en": "Puntarenas",
-      "svgId": "CRP",
-      "descripcion": "La provincia más extensa de Costa Rica abarca desde el Pacífico Central hasta el Sur, guardando tesoros como Manuel Antonio, la Península de Osa y las ballenas jorobadas.",
-      "descripcion_en": "Costa Rica's largest province stretches from the Central to the Southern Pacific, guarding treasures like Manuel Antonio, the Osa Peninsula and humpback whales.",
-      "color": "#95D5B2",
+      "id": "pacifico-central",
+      "nombre": "Región Pacífico Central",
+      "nombre_en": "Central Pacific Region",
+      "svgIds": [
+        "CR-P"
+      ],
+      "color": "#74C69D",
+      "descripcion": "Desde el Pacífico Central hasta el Sur, esta región guarda tesoros como Manuel Antonio, la Península de Osa, Corcovado y la cola de ballena de Uvita.",
+      "descripcion_en": "From the Central to the Southern Pacific, this region holds treasures like Manuel Antonio, the Osa Peninsula, Corcovado and Uvita's whale tail.",
       "destinos": [
         {
           "id": "pu-001",
@@ -360,16 +920,52 @@
             "assets/img/Puntarenas/manuel-antonio/manuel-antonio-3.jpg"
           ],
           "video": "",
-          "actividades": ["Senderismo", "Natación", "Snorkel", "Avistamiento de monos", "Kayak"],
-          "actividades_en": ["Hiking", "Swimming", "Snorkeling", "Monkey watching", "Kayaking"],
-          "lat": 9.3926, "lng": -84.1368
+          "lat": 9.3926,
+          "lng": -84.1368,
+          "actividades": [
+            "Senderismo",
+            "Natación",
+            "Snorkel",
+            "Avistamiento de monos",
+            "Kayak"
+          ],
+          "actividades_en": [
+            "Hiking",
+            "Swimming",
+            "Snorkeling",
+            "Monkey watching",
+            "Kayaking"
+          ],
+          "tips": [
+            {
+              "icono": "🎫",
+              "titulo": "Reserva con anticipación",
+              "titulo_en": "Book well in advance",
+              "texto": "El parque limita las entradas diarias y se agota con días de anticipación. Reserva en sinac.go.cr con al menos 3 días de antelación.",
+              "texto_en": "The park limits daily entries and sells out days ahead. Book at sinac.go.cr at least 3 days in advance."
+            },
+            {
+              "icono": "🐒",
+              "titulo": "Monos tití",
+              "titulo_en": "Squirrel monkeys",
+              "texto": "Es uno de los últimos refugios del mono tití en peligro de extinción. Permanece en los senderos señalizados y nunca alimentes a los monos.",
+              "texto_en": "This is one of the last refuges of the endangered squirrel monkey. Stay on marked trails and never feed the monkeys."
+            },
+            {
+              "icono": "🏖️",
+              "titulo": "Llega temprano",
+              "titulo_en": "Arrive early",
+              "texto": "El parque cierra cuando alcanza su capacidad máxima. Llega antes de las 9 am para asegurar entrada y conseguir los mejores senderos despejados.",
+              "texto_en": "The park closes when it reaches maximum capacity. Arrive before 9 am to secure entry and find the best trails uncrowded."
+            }
+          ]
         },
         {
           "id": "pu-002",
           "nombre": "Bahía Drake & Corcovado",
           "nombre_en": "Drake Bay & Corcovado",
           "descripcion": "El Parque Nacional Corcovado, joya de la biodiversidad mundial. National Geographic lo consideró el lugar más biodiverso del planeta: jaguares, tapires y scarlet macaws en su máxima expresión.",
-          "descripcion_en": "Corcovado National Park, a jewel of world biodiversity. National Geographic considered it the most biodiverse place on the planet: jaguars, tapirs and scarlet macaws at their finest.",
+          "descripcion_en": "Corcovado National Park, a global biodiversity jewel. National Geographic called it the most biodiverse place on Earth: jaguars, tapirs and scarlet macaws at their finest.",
           "imagen_portada": "assets/img/Puntarenas/corcovado/corcovado-1.jpg",
           "galeria": [
             "assets/img/Puntarenas/corcovado/corcovado-1.jpg",
@@ -377,9 +973,45 @@
             "assets/img/Puntarenas/corcovado/corcovado-3.jpg"
           ],
           "video": "",
-          "actividades": ["Ecoturismo", "Senderismo avanzado", "Observación de jaguares", "Buceo", "Pesca deportiva"],
-          "actividades_en": ["Ecotourism", "Advanced hiking", "Jaguar watching", "Scuba diving", "Sport fishing"],
-          "lat": 8.5349, "lng": -83.5833
+          "lat": 8.5349,
+          "lng": -83.5833,
+          "actividades": [
+            "Ecoturismo",
+            "Senderismo avanzado",
+            "Observación de jaguares",
+            "Buceo",
+            "Pesca deportiva"
+          ],
+          "actividades_en": [
+            "Ecotourism",
+            "Advanced hiking",
+            "Jaguar watching",
+            "Scuba diving",
+            "Sport fishing"
+          ],
+          "tips": [
+            {
+              "icono": "🦁",
+              "titulo": "Guía obligatorio",
+              "titulo_en": "Guide required",
+              "texto": "Para ingresar al parque es obligatorio contratar un guía certificado. Son parte fundamental de la experiencia: conocen cada metro del bosque.",
+              "texto_en": "Entering the park requires a certified guide. They are a fundamental part of the experience, knowing every meter of the forest."
+            },
+            {
+              "icono": "🛥️",
+              "titulo": "Acceso por lancha",
+              "titulo_en": "Access by boat",
+              "texto": "La forma más cómoda de llegar es en lancha desde Bahía Drake o Sierpe. El viaje en lancha desde Sierpe dura ≈ 1.5 horas por el río y mar.",
+              "texto_en": "The most comfortable way to arrive is by boat from Drake Bay or Sierpe. The boat trip from Sierpe takes ≈ 1.5 hours by river and sea."
+            },
+            {
+              "icono": "🌧️",
+              "titulo": "Clima extremo",
+              "titulo_en": "Extreme climate",
+              "texto": "Corcovado recibe hasta 5,500 mm de lluvia al año. La temporada seca (dic–mar) es mejor pero siempre hay posibilidad de lluvia repentina.",
+              "texto_en": "Corcovado receives up to 5,500 mm of rain per year. Dry season (Dec–Mar) is better, but sudden rain is always possible."
+            }
+          ]
         },
         {
           "id": "pu-003",
@@ -394,9 +1026,45 @@
             "assets/img/Puntarenas/uvita/uvita-3.jpg"
           ],
           "video": "",
-          "actividades": ["Avistamiento de ballenas", "Snorkel", "Senderismo", "Surf", "Kayak"],
-          "actividades_en": ["Whale watching", "Snorkeling", "Hiking", "Surfing", "Kayaking"],
-          "lat": 9.1558, "lng": -83.7310
+          "lat": 9.1558,
+          "lng": -83.731,
+          "actividades": [
+            "Avistamiento de ballenas",
+            "Snorkel",
+            "Senderismo",
+            "Surf",
+            "Kayak"
+          ],
+          "actividades_en": [
+            "Whale watching",
+            "Snorkeling",
+            "Hiking",
+            "Surfing",
+            "Kayaking"
+          ],
+          "tips": [
+            {
+              "icono": "🐋",
+              "titulo": "Temporada de ballenas",
+              "titulo_en": "Whale season",
+              "texto": "Las ballenas jorobadas se avistan de julio a octubre (Pacífico Sur) y de diciembre a marzo (Pacífico Norte). Julio–agosto es la época pico.",
+              "texto_en": "Humpback whales are spotted July–October (South Pacific) and December–March (North Pacific). July–August is peak season."
+            },
+            {
+              "icono": "🐚",
+              "titulo": "La Cola de Ballena",
+              "titulo_en": "The Whale's Tail",
+              "texto": "El tombolo (banco de arena en forma de cola) es visible durante la marea baja. Programa tu visita con la tabla de mareas para verlo completo.",
+              "texto_en": "The tombolo (whale tail-shaped sandbar) is visible at low tide. Plan your visit using a tide chart to see it at its best."
+            },
+            {
+              "icono": "🤿",
+              "titulo": "Snorkel en el arrecife",
+              "titulo_en": "Reef snorkeling",
+              "texto": "El arrecife del parque tiene corales, tortugas y peces loro. Los tours de snorkel desde Uvita cuestan ≈ $40 por persona.",
+              "texto_en": "The park's reef has corals, turtles and parrotfish. Snorkel tours from Uvita cost ≈ $40 per person."
+            }
+          ]
         }
       ]
     }
